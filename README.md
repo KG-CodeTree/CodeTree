@@ -2,8 +2,8 @@
 Fast Subgraph Search with Graph Code Indices
 
 ## Usages:
-Before executing the subgraph search commands, please download VEQ_S from [this link](https://github.com/SNUCSE-CTA/VEQ)
-VEQ_S must be in the same directory as "ac.kwansei.codetree.jar"
+Before executing the subgraph search commands, please download "VEQ_S" from [this link](https://github.com/SNUCSE-CTA/VEQ)<br>
+"VEQ_S" must be in the same directory as "ac.kwansei.codetree.jar"
 
 Indexing of a Graph Database<br>
 java -jar ac.kwansei.codetree.jar -i [data graph file]
