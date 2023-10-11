@@ -3,21 +3,21 @@ Fast Subgraph Search with Graph Code Indices
 
 ## Usages:
 Before executing the subgraph search commands, please download "VEQ_S" from [this link](https://github.com/SNUCSE-CTA/VEQ)<br>
-"VEQ_S" must be in the same directory as "ac.kwansei.codetree.jar"
+"VEQ_S" must be in the same directory as "codetree.jar"
 
 Indexing of a Graph Database<br>
-java -jar ac.kwansei.codetree.jar -i [data graph file]
+java -jar codetree.jar -i [data graph file]
 
 Subgraph Search with Code Tree<br>
-java -jar ac.kwansei.codetree.jar [serialized file] [data graph file] [query graph directory]
+java -jar codetree.jar [serialized file] [data graph file] [query graph directory]
 
 
 ## Example Usages:
 Indexing of a Graph Database<br>
-java -jar ac.kwansei.codetree.jar -i AIDS.gfu
+java -jar codetree.jar -i AIDS.gfu
 
 Subgraph Search with Code Tree<br>
-java -jar ac.kwansei.codetree.jar AIDS codetree.ser AIDS.gfu Query/AIDS/randomwalk/4
+java -jar codetree.jar AIDS_codetree.ser AIDS.gfu Query/AIDS/randomwalk/4
 
 ## Input
 #[Graph ID]<br>
